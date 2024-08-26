@@ -1,0 +1,8 @@
+import model TopFCNC TopFCNC_param_card.dat --bypass_check
+set max_weight_ps_point 800
+
+decay t > w+ b, w+ > all all ,t~ > h c~
+decay t > h c, t~ > w- b~, w- > all all
+
+
+launch
